@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* start header */
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+header .search {
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(117, 109, 109, 0.968);
+}
+
+header .search i {
+    margin-top: 5px;
+}
+
+header .search a {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+header .name p {
+    border: 2px solid black;
+    padding: 12px;
+}
+
+header .icon i {
+    margin-top: 5px;
+    padding: 7px;
+    color: rgba(117, 109, 109, 0.968);
+    ;
+}
+
+header .icon i:hover {
+    color: black;
+}
+
+header .icon i .fa-regular {
+    font-size: 20px;
+}
+
+/* end header */
+
+/* start navbar */
+nav {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+nav a {
+    margin-right: 40px;
+}
+nav a:hover{
+    color: #cc33ff;
+    
+}
+
+/* end navbar */
+
+/* start first section */
+.first img {
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.first div {
+    position: absolute;
+    right: 250px;
+    top: 400px;
+}
+.first div h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.first div p{
+    margin-top: 40px;
+    line-height: 1.7;
+    font-size: 18px;
+}
+.first div button {
+    margin-top: 20px;
+    background-color:  #cc33ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    transition-duration:1s;
+}
+.first div button:hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+    bottom: 2px;
+}
+/* End first section */
+
+/* Start second section */
+.second{
+    margin-top: 100px;
+    height:165px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.second i{
+    color: #cc33ff;
+    font-size: 30px;
+}
+.second .shipping{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.second .rotate{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.second .question{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.second p{
+    color: darkgrey;
+}
+
+/* End second section */
+/* Start Third Section */
+.third{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px ;
+    margin-bottom: 150px ;
+    width: 100%;
+    
+}
+.third div img {
+    width: 350px;
+    transition: transform .3s;
+    opacity: 1.0; 
+    
+}
+.third div img:hover {
+    transform: scale(1.1);
+}
+.third h5{
+    margin-top:-50px ;
+    margin-left: 11px;
+    color: aliceblue;
+    position: relative ;
+    font-size: 12px;
+}
+.third h2 {
+    margin-top:-50px ;
+    margin-left: 8px;
+    color: aliceblue;
+    position: relative ;
+}
+/* End Third Section */
+
+/* start section featured product */
+
+.fff{
+    background-color: #e6e6e6;
+    height: 800px;
+}
+
+
+.fff h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+
+}
+.fff .partitions{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 70px;
+    margin: 70px 20px;
+}
+.fff .partitions img{
+    margin-bottom: 30px;
+}
+.fff .part{
+    background-color: white;
+    height: 530px;
+    
+}
+.fff h3 {
+    padding:10px 0 ;
+    color: #cc33ff;
+}
+.fff p {
+    padding:10px 0 ;
+}
+.fff small{
+    color: #cc33ff;
+    font-weight: 900;
+}
+
+/* end section featured product */
+
+/* start section blog */
+.big{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 75px;
+    
+    
+}
+.blog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blog img{
+    width: 770px;
+}
+.blog .talks{
+    text-align: center;
+}
+.blog h3{
+    color: #cc33ff;
+    font-size: 30px;
+}
+.blog h6{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+.blog span{
+    color: #cc33ff;
+}
+
+.blog button{
+    margin-top: 60px;
+    background-color:  #cc33ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    transition-duration:1s;
+}
+.blog button:hover{
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.55);
+    bottom: 3px;    
+}
+hr{
+    margin: 100px 0;
+}
+/* end section blog */
+
+/* start footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer .part-one{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+footer img {
+    width: 320px;
+}
+footer h2{
+    position: relative;
+    bottom: 50px;
+}
+footer p{
+    margin: 20px 1px;
+    color: gray;
+}
+footer .secondcol{
+    margin-top: 25px;
+}
+footer .thirdcol{
+    margin-top: 25px;
+}
+footer .part-two{
+    display: flex;
+    
+}
+footer .info{
+    margin-left: 35px;
+  
+}
+footer .info div{
+    display: flex;
+    align-items: center;
+}
+
+footer h3{  
+    color: #cc33ff;
+
+}
+footer i {
+    color: #cc33ff;
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+footer h4 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+footer input{
+    height: 50px;
+    position: relative;
+}
+footer .send{
+    position: absolute;
+    right:  110px;
+    background-color:  #cc33ff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: auto;
+    width: 80px;
+}
+/* end footer */
+
+h4 {
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+}
+h4 span{
+    color: #cc33ff;
+}
+/* end home page  */
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* start About page */
+.about {
+    height: 80px;
+    width: 100%;
+    background-color: 	#e6e6e6;
+    padding:30px 700px 20px 80px;
+}
+.blogabout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.blogabout img{
+    width: 670px;
+}
+/* end blog about */
+
+/* start cv */
+.cv{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.cv img{
+    border-radius: 50%;
+    width: 250px;
+}
+.cv h5{
+    color: gray;
+    
+}
+.cv p{
+    margin-top: 25px;
+    color: gray;
+    
+}
+
+/* end cv */
+
+
+
+
